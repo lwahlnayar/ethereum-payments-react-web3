@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: whitesmoke;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* ---------------SNIPPET COMPONENT-------------- */
+.snippet-component {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid #d1d7dc;
+  border-radius: 12px;
+  height: 320px;
+  width: 280px;
+  margin: 15px;
+  overflow: hidden;
+}
+
+.small {
+  font-size: 13px;
+}
+
+.acc-link {
+  text-decoration: none;
+  font-size: 15px;
+  color: #4982c8;
+}
+.acc-link-fr {
+  text-decoration: none;
+  font-size: 15px;
+  color: #733d85;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  background: #4982c8;
+}
+.header-fr {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  background: #733d85;
+}
+
+.burger {
+  height: 20px;
+  margin: 0px 5px 0px 8px;
+  cursor: pointer;
+}
+
+.middle {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.address {
+  margin: 15px 15px 0 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.balance {
+  text-align: start;
+  margin: 15px;
+}
+.separator {
+  border-top: 1px solid #d1d7dc;
+  margin: 25px 0 5px 0;
+}
+
+.sf {
+  margin: 8px 15px 8px 15px;
+  font-size: 15px;
+  width: fit-content;
+}
+
+.input-cont {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #4982c8;
+}
+
+.input-cont-fr {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #733d85;
+}
+.input-center {
+  position: relative;
+}
+.input-center label {
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+}
+.eth-input {
+  font-size: 45px;
+  color: #4982c8;
+  width: 102px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+.eth-input::placeholder {
+  color: #4982c8;
+}
+.eth-input-fr {
+  font-size: 45px;
+  color: #733d85;
+  width: 102px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+.eth-input-fr::placeholder {
+  color: #733d85;
+}
+
+.send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  background: #4982c8;
+  color: white;
+  cursor: pointer;
+}
+.send:hover {
+  transition: all 0.4s ease;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  background: #3c6aa3;
+}
+.send:active {
+  background: #5a9beb;
+}
+.send-fr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  background: #733d85;
+  color: white;
+  cursor: pointer;
+}
+.send-fr:hover {
+  transition: all 0.4s ease;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  background: #522d5f;
+}
+.send-fr:active {
+  background: #9f51b9;
+}
+
+.loading {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.loading img {
+  width: 100%;
+}
+/* ---------------END SNIPPET COMPONENT-------------- */
